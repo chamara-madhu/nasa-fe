@@ -8,7 +8,6 @@ const MarsRoverCard = ({ id, img_src, camera, rover, earth_date, sol }) => {
         src={img_src}
         alt={camera.full_name}
         loading="lazy"
-        srcSet={`${img_src}?w=300 300w, ${img_src}?w=600 600w`}
       />
       <div className="p-4">
         <h5 className="mb-2 text-xl font-bold">{camera.full_name}</h5>
